@@ -1,0 +1,3 @@
+str = 'Today not that poor'
+#將poor用good取代
+print(str.replace('poor','good'))
