@@ -1,0 +1,5 @@
+s = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#變數x=最後一個+前面八個
+x = [s[-1]]+s[:8]
+print('Sample Input：' + str(s))
+print('Sample Output：' + str(x))
