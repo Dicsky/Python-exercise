@@ -1,0 +1,5 @@
+L = [1, 1, 3, 9, 7, 8, 8, 8]
+#保留List L不重複之變數，並且按照由大至小排列
+x = sorted(list(set(L)), reverse = True)
+print('Sample Input：' + str(L))
+print('Sample Output：' + str(x))
