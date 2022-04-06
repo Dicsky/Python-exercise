@@ -1,0 +1,7 @@
+#輸入變數x
+x = int(input('x: '))
+#輸入變數y
+y = int(input('y: '))
+#兩數相加，存入sum變數
+sum = x+y
+print(sum)
