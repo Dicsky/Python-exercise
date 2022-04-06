@@ -1,0 +1,8 @@
+#輸入變數a
+a = int(input("Enter the first number:"))
+#輸入變數b
+b = int(input("Enter the first number:"))
+#交換變數的值
+a, b = b, a
+
+print(a,b)
